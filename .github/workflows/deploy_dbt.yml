@@ -31,8 +31,6 @@ jobs:
       - name: ✅ Run linter
         run: uv run sqlfluff lint
 
-      - name: 🏗️️ Build production environment
-        run: uv run dbt run --target prod
 
       - name: 🗃️️ Generate Data Catalog
         run: |
