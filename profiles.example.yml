@@ -17,5 +17,5 @@ dbt_scooters:
       schema: dbt
       threads: 4
       type: postgres
-      user: dbtuser
+      user: dbt_read
   target: dev
